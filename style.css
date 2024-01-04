@@ -302,7 +302,7 @@ body {
 
 .portfolio-projeto-link {
     color: #fff;
-    background-color: rgba(22, 30, 50, 0.4);
+    background-color: #5271FF;
     border-radius: 5px;
     outline: 2px solid transparent;
     padding: 12px;
@@ -310,7 +310,7 @@ body {
 }
 
 .portfolio-projeto-link:hover {
-    outline-color: #5271FF;
+    outline-color: #94a7ff;
 }
 
 .portfolio-projeto-subtitulo {
