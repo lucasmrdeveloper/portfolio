@@ -1,6 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
+    efeitoScroll()
     menuRwd()
 })
+
+function efeitoScroll() {
+    const observerSections = new IntersectionObserver(observadorElementosSecoes, {threshold:0})
+    const secoes = document.querySelectorAll('.conteudo-escondido')
+
+    secoes.forEach(secao => {
+        observerSections.observe(secao)
+    })
+
+    function observadorElementosSecoes(secoes) {
+        secoes.forEach(secao => {
+
+            if (secao.isIntersecting) {
+                mostrarSecao(secao)
+            }
+        })
+    }
+
+    function mostrarSecao(elemento) {
+        elemento.target.classList.add('js-conteudo-mostrar')
+    }
+}
 
 function menuRwd() {
     const body = document.body
