@@ -413,6 +413,11 @@ body {
 /* ----- Header, Home, Sobre e Habilidades ----- */
 @media (max-width:775px) {
     /* ----- Header ----- */
+    .header-container{
+        position:relative;
+        z-index:50;
+    }
+
     .header-categorias-box {
         left: 0;
         position: absolute;
