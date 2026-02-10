@@ -86,25 +86,28 @@ function mostrar(habilidade) {
 
     function validarParametro() {
         if (parametro == 'html') {
-            conteudo = 'HTML é uma linguagem de marcação usada para criar páginas da web. Na qual é usado tags para estruturar o conteúdo.'
+            conteudo = 'Utilizo HTML de forma semântica e estruturada, garantindo acessibilidade, organização do conteúdo e melhor entendimento tanto para o usuário quanto para mecanismos de busca.'
         }
         else if (parametro == 'css') {
-            conteudo = 'CSS é uma linguagem usada para estilizar a apresentação de páginas da web, definindo o design, layout e aparência visual dos elementos HTML.'
+            conteudo = 'Trabalho com CSS focado em layouts responsivos, utilizando Flexbox e Grid para criar interfaces adaptáveis a diferentes dispositivos. Busco sempre equilíbrio entre estética, legibilidade e usabilidade.'
         }
         else if (parametro == 'js') {
             conteudo = 'JavaScript é uma linguagem de programação, amplamente usada para criar interatividade em páginas da web, permitindo manipulação dinâmica de conteúdo e comportamento dos elementos da página.'
         }
+        else if (parametro == 'react') {
+            conteudo = 'Utilizo React para criar interfaces componentizadas e dinâmicas, trabalhando com JSX, estado (useState) e renderização condicional. Tenho experiência na construção de SPAs, focando em organização de componentes, reaproveitamento de código e boa experiência do usuário.'
+        }
         else if (parametro == 'tailwind') {
-            conteudo = 'Tailwind CSS é um framework de CSS utilitário que permite a construção de interfaces web de forma eficiente, usando classes predefinidas para estilização.'
+            conteudo = 'Utilizo Tailwind para criar interfaces rápidas, consistentes e responsivas, utilizando classes utilitárias diretamente no HTML. Essa abordagem acelera o desenvolvimento e garante padronização visual sem perder flexibilidade.'
         }
         else if (parametro == 'sass') {
-            conteudo = 'Sass é uma linguagem de estilo (CSS preprocessor) que estende a sintaxe do CSS, permitindo o uso de funções e aninhamento para facilitar a escrita e organização do código CSS.'
-        }
-        else if (parametro == 'photoshop') {
-            conteudo = 'O Photoshop é um software de edição de imagens, amplamente usado para manipulação, retoque e criação de gráficos, fotos e designs, com diversas ferramentas de edição.'
+            conteudo = 'Utilizo Sass para organizar e escalar estilos CSS, trabalhando com variáveis, aninhamento e modularização. Isso facilita a manutenção do código, reaproveitamento de estilos e evolução visual dos projetos.'
         }
         else if (parametro == 'git') {
-            conteudo = 'Git é um sistema de controle de versão que registra alterações em arquivos, facilitando o gerenciamento do histórico de um projeto de software.'
+            conteudo = 'Utilizo Git para versionamento de código, organização de projetos e controle de alterações, mantendo histórico limpo e facilitando manutenção e evolução dos projetos.'
+        }
+        else if (parametro == 'wordpress') {
+            conteudo = 'Utilizo WordPress para desenvolver sites institucionais profissionais, focando em performance, facilidade de gerenciamento e autonomia do cliente para editar conteúdos no dia a dia.'
         }
     }
 
